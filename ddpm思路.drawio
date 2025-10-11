@@ -1,0 +1,106 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="第 1 页" id="zygD7qHVxJ2kkTGgUmGd">
+    <mxGraphModel dx="823" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UT5RA311ALzrWWyMjTSw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="lfXEa_SPLfmIldQoamzo-1" target="lfXEa_SPLfmIldQoamzo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfXEa_SPLfmIldQoamzo-1" value="对\(P\left ( x_{t-1}|x_{t}\right ) \)，&lt;br&gt;假设其可以通过正态分布较好拟合" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="100" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="lfXEa_SPLfmIldQoamzo-3" target="UT5RA311ALzrWWyMjTSw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lfXEa_SPLfmIldQoamzo-3" target="UT5RA311ALzrWWyMjTSw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfXEa_SPLfmIldQoamzo-3" value="需要知道均值和方差" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-2" value="方差按步数t取固定值处理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-4" target="UT5RA311ALzrWWyMjTSw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-4" target="UT5RA311ALzrWWyMjTSw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-4" target="UT5RA311ALzrWWyMjTSw-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-4" value="需要知道\(E\left ( x_{t-1}|x_{t}\right )&amp;nbsp;\)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-8" target="UT5RA311ALzrWWyMjTSw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-8" value="方案1：直接生成大量\(x_{t-1}\)、\(x_{t}\) 进行拟合，损失函数 \(MSE\left ( \mu _{1,\theta } \left ( x_{t}&amp;nbsp; \right ) ,x_{t-1} \right )&amp;nbsp;\)," style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-10" target="UT5RA311ALzrWWyMjTSw-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-10" value="方案2：取生成大量\(x_{0}\)、\(x_{t}\) 拟合\(E\left ( x_{0}|x_{t}\right )\)，损失函数 \(MSE\left ( \mu _{2,\theta } \left ( x_{t}&amp;nbsp; \right ) ,x_{0} \right )&amp;nbsp;\)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="790" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-11" target="UT5RA311ALzrWWyMjTSw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-11" value="改写\(E\left ( x_{t-1}|x_{t}\right ) = E\left (E\left ( x_{t-1}|x_{t}, x_{0}\right ) | x_{t}\right )\)" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="460" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-14" target="UT5RA311ALzrWWyMjTSw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-14" value="可以求得 \(E\left ( x_{t-1}|x_{t}, x_{0}\right )=\frac{\sqrt{\alpha_{t}}\left(1 - \bar{\alpha}{t - 1}\right)}{1 - \bar{\alpha}{t}} \boldsymbol{x}_{t}+\frac{\sqrt{\bar{\alpha}{t - 1}} \beta_{t}}{1 - \bar{\alpha}{t}} \boldsymbol{x}_{0}\)" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="290" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-15" value="效果不好" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="320" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-18" target="UT5RA311ALzrWWyMjTSw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-18" value="可以求得 \(&amp;nbsp;E\left (E\left ( x_{t-1}|x_{t}, x_{0}\right ) | x_{t}\right )=\frac{\sqrt{\alpha_{t}}\left(1 - \bar{\alpha}{t - 1}\right)}{1 - \bar{\alpha}{t}} \boldsymbol{x}_{t}+\frac{\sqrt{\bar{\alpha}{t - 1}} \beta_{t}}{1 - \bar{\alpha}{t}} E\left ( x_{0}|x_{t}\right )\)" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="625" y="670" width="380" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-20" value="重期望公式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="510" y="458" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-22" value="效果还是不好" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="790" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-24" target="UT5RA311ALzrWWyMjTSw-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-24" value="改写\(E\left ( x_{t-1}|x_{t}\right ) = E\left (E\left ( x_{t-1}|x_{t},\varepsilon _{t}\right ) | x_{t}\right )\)" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="920" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-25" value="可以求得\(E\left ( x_{t-1}|x_{t},\varepsilon _{t}\right )&amp;nbsp; = \frac{1}{\sqrt{\alpha_t}}\left(x_t - \frac{1 - \alpha_t}{\sqrt{1 - \overline{\alpha_t}}}\epsilon_t\right)\)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="1040" width="267.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-28" target="UT5RA311ALzrWWyMjTSw-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-28" value="可以求得\(E\left ( x_{t-1}|x_{t}\right )&amp;nbsp; = \frac{1}{\sqrt{\alpha_t}}\left(x_t - \frac{1 - \alpha_t}{\sqrt{1 - \overline{\alpha_t}}} E\left ( \epsilon_t|x_{t}\right ) \right)\)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1150" width="305" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-29" style="rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.485;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-25" target="UT5RA311ALzrWWyMjTSw-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="UT5RA311ALzrWWyMjTSw-30" target="UT5RA311ALzrWWyMjTSw-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-30" value="方案3：取大量\(x_{t}\)、\(x_{t}\)，拟合\(E\left ( \epsilon_t|x_{t}\right ) \)，损失函数&lt;font face=&quot;Helvetica&quot;&gt;\(MSE\left ( \mu _{3,\theta } \left ( x_{t}&amp;nbsp; \right ) ,\varepsilon_{t}&amp;nbsp; &amp;nbsp;\right )&amp;nbsp;\)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1270" width="305" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="UT5RA311ALzrWWyMjTSw-32" value="效果可行" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1275.5" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
